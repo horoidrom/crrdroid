@@ -22,7 +22,7 @@ wget https://raw.githubusercontent.com/SamarV-121/android_vendor_extra/lineage-1
 patch -p1 < *.patch
 cd /tmp/rom
 source build/envsetup.sh
-lunch lineage_RMX2001-userdebug
+lunch aosp_RMX2001-userdebug
 export SKIP_API_CHECKS=true
 export SKIP_ABI_CHECKS=true
 cd /tmp/rom
