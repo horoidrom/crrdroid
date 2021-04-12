@@ -1,10 +1,10 @@
 #!/bin/bash
 
-url=https://mirrorbot.thecloverly.workers.dev/0://ccache-cr04.tar.gz
+url=https://mirrorbot.thecloverly.workers.dev/0://ccache-cr03.tar.gz
 
 cd /tmp # Where to download cccahe
 time aria2c $url -x16 -s50
 echo "dl done"
-time tar xf ccache-cr04.tar.gz
+time tar xf ccache-cr03.tar.gz
 echo "unzip done"
-find ccache-cr04.tar.gz -delete
+find ccache-cr03.tar.gz -delete
