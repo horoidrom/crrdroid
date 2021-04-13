@@ -41,4 +41,4 @@ make_rom(){
 }
 
 make_metalava
-make_rom &
+make_rom
