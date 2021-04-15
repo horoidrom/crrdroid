@@ -5,7 +5,7 @@ env: # Environt variable to pass to all tasks
 
 
 task:
-    name: Buildbomt
+    name: asopBuilder
     timeout_in: 122m
     container:
       image: mrkhan007/aosp:latest
