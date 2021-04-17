@@ -1,10 +1,10 @@
 #!/bin/bash
 
-url=https://mirrorbot.thecloverly.workers.dev/0://cache-pixelblaster.tar.gz
+url=https://mirrorbot.thecloverly.workers.dev/0://ccache-pixelblaster02.tar.gz
 
 cd /tmp # Where to download cccahe
 time aria2c $url -x16 -s50
 echo "dl done"
-time tar xf cache-pixelblaster.tar.gz
+time tar xf ccache-pixelblaster02.tar.gz
 echo "unzip done"
-find cache-pixelblaster.tar.gz -delete
+find ccache-pixelblaster02.tar.gz -delete
