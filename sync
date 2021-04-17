@@ -22,3 +22,4 @@ git clone https://github.com/ashuk1109/vendor_realme_RMX2001.git vendor/realme/R
 git clone https://github.com/MyAndroidDumps/device_realme_RMX2001.git device/realme/RMX2001
 
 cd /tmp/rom
+
