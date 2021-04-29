@@ -20,5 +20,6 @@ ls
 ##delete these lines, and replace with your own lines of device sauce
 git clone https://github.com/ashuk1109/vendor_realme_RMX2001.git vendor/realme/RMX2001
 git clone https://github.com/MyAndroidDumps/device_realme_RMX2001.git device/realme/RMX2001
+git clone https://github.com/TheCloverly/vendor_oplauncher.git vendor/oplauncher
 
 cd /tmp/rom
