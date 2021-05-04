@@ -11,6 +11,7 @@ patch -p1 < *.patch
 cd /tmp/rom
 source build/envsetup.sh
 lunch aosp_RMX2001-userdebug
+export ALLOW_MISSING_DEPENDENCIES=true
 export SKIP_API_CHECKS=true
 export SKIP_ABI_CHECKS=true
 cd /tmp/rom
