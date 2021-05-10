@@ -1,13 +1,13 @@
 #!/bin/bash
 sudo apt install wget
-MANIFEST=git://github.com/PixelBlaster-OS/manifest.git
-BRANCH=eleven
+MANIFEST=git://github.com/crdroidandroid/android.git
+BRANCH=11.0
 
 mkdir -p /tmp/rom
 cd /tmp/rom
 
 # Repo init command, that -device,-mips,-darwin,-notdefault part will save you more time and storage to sync, add more according to your rom and choice.Optimization is welcomed! Let's make it quit, and with depth=1 so that no unnecessary things.
-repo init -u https://github.com/PixelBlaster-OS/manifest -b eleven
+repo init -u git://github.com/crdroidandroid/android.git -b 11.0
 git config --global user.name "SriBalaji"
 git config --global user.email "sribalajisenthilkumar@gmail.com"
 
@@ -19,7 +19,6 @@ ls
 
 ##delete these lines, and replace with your own lines of device sauce
 git clone https://github.com/ashuk1109/vendor_realme_RMX2001.git vendor/realme/RMX2001
-git clone https://github.com/MyAndroidDumps/device_realme_RMX2001.git device/realme/RMX2001
-git clone https://github.com/TheCloverly/vendor_oplauncher.git vendor/oplauncher
+git clone https://github.com/MyAndroidDumps/device_realme_RMX2001-1.git device/realme/RMX2001
 
 cd /tmp/rom
