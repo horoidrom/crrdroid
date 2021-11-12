@@ -2,7 +2,7 @@ task:
     name: new
     timeout_in: 122m
     container:
-      image: mrkhan007/aosp:latest
+      image: fr3akyphantom/droid-builder:latest
       cpu: 8
       memory: 30G 
     sync_script:
