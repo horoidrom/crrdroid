@@ -1,5 +1,3 @@
-env: # Environt variable to pass to all tasks
-    CIRRUS_CLONE_DEPTH: 1 # No need to clone with whole history
 task:
     name: new
     timeout_in: 122m
