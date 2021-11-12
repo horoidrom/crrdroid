@@ -2,9 +2,11 @@ task:
     name: new
     timeout_in: 122m
     container:
-      image: fr3akyphantom/droid-builder:latest
+      image: ubuntu:20.04
       cpu: 8
       memory: 30G 
+    env_script:
+      - bash env     
     sync_script:
       - bash sync
     build_script:
