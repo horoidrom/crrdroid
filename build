@@ -1,15 +1,6 @@
 #!/bin/bash
 cd /tmp/rom
 rm -rf .repo
-cd external/selinux 
-curl -L http://ix.io/2FhM > sasta.patch 
-git am sasta.patch 
-cd /tmp/rom
-cd frameworks/av 
-wget https://github.com/phhusson/platform_frameworks_av/commit/624cfc90b8bedb024f289772960f3cd7072fa940.patch 
-patch -p1 < *.patch
-cd /tmp/rom
-git clone https://github.com/sarthakroy2002/clang-r353983c1 prebuilts/clang/host/linux-x86/clang/r353983c1
 source build/envsetup.sh
 lunch lineage_m01q-userdebug
 export ALLOW_MISSING_DEPENDENCIES=true
